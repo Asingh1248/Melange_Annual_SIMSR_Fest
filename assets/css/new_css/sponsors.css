@@ -1,0 +1,103 @@
+.sponsors-container{
+	padding: 2%;
+	/*background: silver;*/
+	background: linear-gradient(35deg,#383E52,#365569,#2D6E7A,#288784,#369F87,#57B682,#82CC79,#B5DF6E,#EFEE69);
+	/*background: linear-gradient(35deg,#FFAD2E,#914D3E,#8EA73B,#BF1B33,#E7522B,#554448,#56936C,#D3BF23,#AEC191);*/
+	height: auto;
+}
+.sponsors-container h1{
+	/*font-family: Ubuntu;
+	font-size: 8vh;*/
+	text-align: center;
+	font-weight: 700;
+	/*text-shadow: 2px 2px 0 white,4px 4px 0 silver;*/
+}
+.sponsors-logo-container{
+	padding: 2%;
+	margin-top: 3vh !important;
+}
+.sponsors-row1, .sponsors-row2{
+	padding: 2%;
+	margin-top: 3vh !important;
+}
+.sponsors-row1 img, .sponsors-row2 img{
+	margin-bottom: 2vh !important;
+}
+.sponsors-image p, .sponsors-table p{
+	color: #fff !important;
+	text-shadow: 1px 1px 0 #000 !important;
+	font-size: large;
+        font-weight: 100;
+}
+.sponsors-a{
+	outline: none;
+	/*font-family: Ubuntu;*/
+	font-size: large;
+	text-decoration: none !important;
+	color: #fff !important;
+	padding: 1%;
+	background: #000;
+	transition: all 0.5s ease;
+}
+.sponsors-a:hover{
+	background: #ff2800;
+	color: #fff;
+}
+.sponsors-table td, .sponsors-table1 td{
+	padding: 2% !important;
+}
+.sponsors-table1 p{
+	color: #000 !important;
+	text-shadow: 1px 1px 0 silver !important;
+	font-size: large;
+}
+.sponsors-table1 td, .sponsors-table1 tr{
+	/*border: none !important;*/
+}
+.all-sponsors-container{
+	height: 80vh !important;
+	overflow-y: scroll;
+	padding: 5% !important;
+	background: #fff;
+	border-radius: 2vh;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+    .sponsors-container h1, .sponsors-table1 p{
+        font-size: medium !important;
+    }
+    .sponsors-table td, .sponsors-table1 td{
+	padding: 1% !important;
+    }
+    .sponsors-image p, sponsors-a{
+        font-size: small !important;
+    }
+    #sponsors-corousel{
+        margin-left: 6vh !important;
+    }
+    .all-sponsors-container{
+        margin-left: 10vh !important;
+    }
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+    
+}
+
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    
+}
+
+/* #### iPhone 5 Portrait or Landscape #### */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
+    
+}
+
+/* #### iPhone 6 and 6 plus Portrait or Landscape #### */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3){
+    
+}

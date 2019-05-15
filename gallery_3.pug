@@ -1,0 +1,11 @@
+-var nb = 8
+.gallery
+   .gallery-viewer 
+   .col
+    -for(var i = 0; i< nb; i++)
+      .item
+        img(src="https://unsplash.it/600/400?image="+(i + 2) * 10)
+   .col
+    -for(var i = 0; i< nb; i++)
+      .item
+        img(src="https://unsplash.it/600/400?image="+(i + 4) * 10)

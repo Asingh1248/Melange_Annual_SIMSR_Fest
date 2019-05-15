@@ -1,0 +1,14 @@
+/*about.css*/
+#intro hr
+{
+	background-color: #fb1b35; 
+	color: #fb1b35; 
+	width: 8%;	
+	align-self: center;
+
+}
+#intro
+{
+	padding: 1%;
+	
+}

@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.verticle-nav{
+  z-index: 10000000000;
+  background: #000;
+  height: 100vh !important;
+  position: fixed !important;
+  left: 0 !important;
+  padding: 0.5%;
+}
+.menu_ul{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nl{
+  padding: 1vh;
+  list-style-type: none;
+  font-size: x-large;
+  font-weight: bolder;
+  margin-bottom: 3vh;
+  transition: all 0.2s ease;
+}
+.nl:hover, .nl a:hover{
+  background: #fff !important;
+  color: #ff2800 !important;
+  border-radius: 1vh;
+}
+.menu_ul a{
+  color: #fff !important;
+  text-decoration: none !important;
+	transition: all 0.2s ease;
+}
+.menu_ul span{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
